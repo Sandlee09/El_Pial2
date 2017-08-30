@@ -1,0 +1,147 @@
+/* Main Start */
+.body {
+	background-color: white;
+}
+
+/* Main End */
+/* JumboTron CSS START */
+#top_jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('images/Pial logo 2.png');
+  background-size: cover;
+  color: #ffffff;
+  height: 300px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  margin: 0px;
+  resize: width;
+
+}
+
+.jumbotron div {
+	margin: auto;
+    padding: 10px;
+	z-index: 1;
+}
+
+.logo {
+	padding: 0px;
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+	
+}
+
+
+
+.ginete_logo {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}
+
+
+
+#sidePanel_jumbotron {
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	top: 0%;
+	right: 0%;
+}
+
+/* Jumbotron CSS END */
+
+/* Side Panels CSS START */
+
+#sidePanel_left {
+	position: absolute;
+	margin: 0px;
+	left: -1px;
+	padding: 0px;
+	background-repeat: repeat-y;
+	max-width: 120px;
+}
+
+#sidePanel_right {
+	position: absolute;
+	right: -1px;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: repeat-y;
+	max-width: 120px;
+}
+
+/* Side Panel CSS END */
+
+
+/* Navbar CSS START */
+section nav {
+	position: relative;
+	top: 2px;
+	display: inline;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 60px;
+	
+}
+
+section nav p {
+
+	display: inline;
+}
+
+p .btn.btn-primary {
+	background-color: #bf8040;
+	border: 1px solid black;
+
+}
+
+p .btn.btn-primary:hover {
+	position: relative;
+	bottom: 3px;
+	background-color: #86592d
+
+}
+
+/* Navbar CSS END */
+
+
+/* Main Section CSS START*/
+
+
+
+/* Main Section CSS END*/
+
+
+
+/* Footer CSS START */
+footer {
+	margin-top: 20px;
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	height:30px;
+}
+
+#blank {
+	height: 150px;
+}
+
+#fb_logo {
+	padding-left: 28px;
+	padding-right: 0px;
+}
+
+.col-sm-6 h2 {
+	text-decoration: underline;
+	text-decoration-style: bold;
+	line-height: 5px;
+	padding-bottom: 10px;
+	text-shadow: 2px 2px 8px gray;
+ 
+}
+
+/* Footer CSS END */
+
