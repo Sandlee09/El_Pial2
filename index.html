@@ -6,8 +6,7 @@
 	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<script src="javascript/jquery-3.2.1.js"></script>
-	<script type="text/javascript" src="javascript/main.js"></script>
+	
 	
 
 </head>
@@ -20,7 +19,7 @@
 <section class="MainScreen">
 <section>
 	<div id="sidePanel_jumbotron" class="col-sm-1 text-right" >
-		<img src="images/side panel 2.png"/>
+		<img class="dissapear" src="images/side panel 2.png"/>
 	</div>
 </section>
 
@@ -48,13 +47,13 @@
 
 <section>
 	<div id="sidePanel_left" class="col-sm-1 text-left" >
-		<img src="images/panel TEST.png"/>
+		<img class="dissapear" src="images/panel TEST.png"/>
 	</div>
 </section>
 
 <section>
 	<div id="sidePanel_right" class="col-sm-1 text-right">
-		<img src="images/panel TEST.png" />
+		<img class="dissapear" src="images/panel TEST.png" />
 	</div>
 </section>
 
@@ -80,7 +79,7 @@
 
 <section class="container" id="mainArea">
 	<div class="row">
-		<figure class="col-sm-6 text-center">
+		<figure class="col-sm-6 text-center" >
 			<h2>Centro Tradicionalista</h2>
 			<img src="images/zelaya entrada.jpg"  class="img-responsive img-rounded img_1"  id="ImageHover"/>
 		</figure>
@@ -130,10 +129,30 @@
 
 </section>
 
+<div class="background-wipe" style="width: 100%; height:100%; position: fixed; top: 0;
+left: 0; z-index: 999; background-color: black; display: block;"><span class="glyphicon glyphicon-remove exit" style="position: fixed; top: 10px; right: 10px; font-size: 60px;"></span></div>
+<div id="my-slide" class="carousel slide" data-ride="carousel">
+	<!--Wrapper Images-->
+	<div class="carousel-inner" >
+		<div class="item active">
+			<img src="images/centro/1.jpg" alt="el pial" />
+		</div>
+		<div class="item">
+			<img src="images/centro/2.jpg" alt="el pial" />
+		</div>
+	</div>
+	<!--Controls-->
+	<a class="left carousel-control" href="#my-slide" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+	</a>
+	<a class="right carousel-control" href="#my-slide" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+	</a>
+</div>
 
 <!-- Courasel Start -->
 
-
+<!--
 <div  class="courasel" style="opacity: 0;">
 	<img src="images/close_btn.png" class="close_btn" style="opacity: 0.2;" />
 	<div class="arrows left_arrow" id="left_arrow">
@@ -154,10 +173,13 @@
 
 	<div class="courasel-images"><img class = 'image_rotation' src="" style="width: 800px; height: 600px; border: 2px solid yellow"/></div>
 </div>
+-->
 
-<!-- Courasel End -->
+<!--Courasel End -->
 
-
+	
 </body>
-
+	<script src="javascript/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="javascript/bootstrap.min.js"></script>
+	<script type="text/javascript" src="javascript/main.js"></script>
 </html>

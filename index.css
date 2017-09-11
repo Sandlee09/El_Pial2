@@ -124,40 +124,6 @@ figure h2 {
 
 /* Main Section CSS END*/
 
-/* Courasel Start*/
-
-.courasel {
-	display: inline-block;
-	position: fixed;
-	background-color: rgb(13,13,13);
-	top: 20%;
-	width: 100%;
-	max-height: 600px;
-	overflow: hidden;
-
-}
-
-
-
-.courasel-images {
-	margin: auto;
-	position: relative;
-	
-	width: 800px;
-	height: 600px;
-}
-
-.close_btn {
-	position: fixed;
-	top: 10px;
-	right: 10px;
-	height: 50px;
-	width: 50px;
-}
-
-
-/* Courasel END*/
-
 
 /* Footer CSS START */
 footer {
@@ -187,5 +153,32 @@ footer {
  
 }
 
+.carousel-inner  img{
+			margin: auto;
+			max-height: 700px;
+
+		}
+
+#my-slide {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	top: 150px;
+	z-index: 1000;
+}
+
 /* Footer CSS END */
 
+@media screen and (max-width: 1000px) {
+	.dissapear {
+		display: none;
+	}
+
+	#top_jumbotron {
+		background-image: url('images/Pial logo 1.png');
+	}
+
+	#mainArea figure {
+		padding: 0;
+	}
+}
